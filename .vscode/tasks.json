@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar e Executar Super Trunfo",
+      "type": "shell",
+      "command": "gcc CartasSuperTrunfo.c -o super_trunfo && ./super_trunfo",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
