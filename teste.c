@@ -5,7 +5,7 @@ int main(){
     char estado1 = 'M';
     char codigo1[] = "M01";
     char nomeCidade1[] = "Belo Horizonte";
-    int populacao1 = 2416339;
+    int populacao1 = 2.416339;
     float area1 = 331.354;
     float pib1 = 105.8;
     int pontosTuristicos1 = 25;
@@ -19,7 +19,7 @@ int main(){
     char estado2 = 'T';
     char codigo2[] = "T01";
     char nomeCidade2[] = "Palmas";
-    int populacao2 = 323625;
+    int populacao2 = 323.625;
     float area2 = 2227.329;
     float pib2 = 10.3;
     int pontosTuristicos2 = 20;
