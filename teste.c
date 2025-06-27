@@ -5,29 +5,33 @@ int main(){
     char estado1 = 'M';
     char codigo1[] = "M01";
     char nomeCidade1[] = "Belo Horizonte";
-    int populacao1 = 2.416339;
+    int populacao1 = 2416339;
     float area1 = 331.354;
     float pib1 = 105.8;
     int pontosTuristicos1 = 25;
     float densidadePopulacional1;
     float pibPerCapita1;
+    float superPoder1; 
 
     densidadePopulacional1 = populacao1 / area1;
     pibPerCapita1 = (pib1 * 1000000000) / populacao1;
+    superPoder1 = populacao1 + area1 + pib1 + pibPerCapita1 + (1 / densidadePopulacional1) + pontosTuristicos1;
 
     // Carta 2: Palmas (Tocantins)
     char estado2 = 'T';
     char codigo2[] = "T01";
     char nomeCidade2[] = "Palmas";
-    int populacao2 = 323.625;
+    int populacao2 = 323625;
     float area2 = 2227.329;
     float pib2 = 10.3;
     int pontosTuristicos2 = 20;
     float densidadePopulacional2;
     float pibPerCapita2;
-    
+    float superPoder2;
+
     densidadePopulacional2 = populacao2 / area2;
     pibPerCapita2 = (pib2 * 1000000000) / populacao2;
+superPoder2 = populacao2 + area2 + pib2 + pibPerCapita2 + (1 / densidadePopulacional2) + pontosTuristicos2;
 
 
     // Exibição da Carta 1
